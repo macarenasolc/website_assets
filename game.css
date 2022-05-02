@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+#screen {
+    position: relative;
+    width: 80%;
+    aspect-ratio: 16/9;
+    border: 4px solid black;
+    overflow: hidden;
+}
+
+#title_screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(MAIN.svg);
+    
+} 
+
+#instructions_screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(instructions.svg);
+    
+} 
+#play_game {
+    margin: 0;
+    padding: 2%;
+    border: 1px black;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(start.svg);
+    width: 15%;
+    height: 20%;
+    background-size: cover;
+    top: 62% ;
+    left: 71%;
+} 
+#close_button {
+    margin: 0;
+    padding: 2%;
+    border: 1px black;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(close_button-08.svg);
+    width: 15%;
+    height: 20%;
+    background-size: cover;
+    top: 16% ;
+    left: 71%;
+} 
+
+#instructions_button {
+    margin: 0;
+    padding: 2%;
+    border: 1px black;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(instructions_button-07.svg);
+    width: 25%;
+    height: 15%;
+    background-size: cover;
+    top: 79% ;
+    left: 65%;
+} 
+
+#win_screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(win_screen.svg);
+}
+
+#lose_screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(lose_screen.svg);
+}
+
+
+
+#game {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+#game_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("background.svg");
+    background-size: cover;
+}
+
+#game_middleground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#carrot1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+
+#carrot1_sprite {
+    background-image: url("carrot.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#eggplant1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+#eggplant1_sprite {
+    background-image: url("berenjena.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#bread1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+
+#bread1_sprite {
+    background-image: url("bread.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#beef1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+#beef1_sprite {
+    background-image: url("beef.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+} 
+
+#cheese1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+#cheese1_sprite {
+    background-image: url("cheese.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#chips1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+#chips1_sprite {
+    background-image: url("chips.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#pincho1_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+}
+#pincho1_sprite {
+    background-image: url("pincho.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#game_ui {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#cherry1 {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 1/1;
+    right: 12%;
+    top: 1%;
+}
+
+#cherry2 {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 1/1;
+    right: 17%;
+    top: 1%;
+}
+#cherry3 {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 1/1;
+    right: 23%;
+    top: 1%;
+}
+
+#score_board, 
+#life_board {
+    position: absolute;
+    top: 5%;
+    width: 10%;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#score_board {
+    left: 7%;
+}
+#life_board {
+    right: 18%;
+    text-align: right;
+}
+
+#wauw {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 2em;
+    color: red;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    transform: rotate(15deg);
+}
+
+
+#tp_lives{ 
+    width: 30%;
+    aspect-ratio: 2/0.56;
+    position:absolute;
+    left:3%;
+    top: 3%;
+    background-size: contain;
+    }
+
+
+
+#time_container {
+    position: absolute;
+    border: 0.1rem  #fd94a7;
+    top: 60%;
+    left: 3%;
+    width: 20%;
+    aspect-ratio: 1/1.7;
+}
+
+#time_sprite {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+
+
+
+.glas1 {
+    background-image: url(health_bar-02.svg);
+}
+.glas2 {
+    background-image: url(health_bar-03.svg);
+}
+.glas3 {
+    background-image: url(health_bar-04.svg);
+}
+.glas4 {
+    background-image: url(health_bar-05.svg);
+}
+.glas5 {
+    background-image: url(health_bar-06.svg);
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.pos1 {
+    left: 32%;
+    top: -20%;
+}
+
+.pos2 {
+    left: 45%;
+    top: -20%;
+}
+
+.pos3 {
+    left: 55%;
+    top: -20%;
+}
+
+.pos4 {
+    left: 20%;
+    top: -20%;
+}
+
+
+
+.falling1 {
+    animation-name: falling;
+    animation-duration: 4.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.falling2 {
+    animation-name: falling;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.falling3 {
+    animation-name: falling;
+    animation-duration: 3.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.zoom_out {
+    transform: scale(0, 0);
+    transition: transform 3s;
+}
+
+.stop {
+    animation-play-state: paused;
+}
+
+@keyframes falling {
+    to {
+        transform: translateY(760%);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

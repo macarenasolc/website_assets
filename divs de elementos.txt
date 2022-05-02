@@ -1,0 +1,25 @@
+                <div id="eggplant1_container">
+                    <div id="eggplant1_sprite"></div>
+                </div>
+                <div id="brocoli1_container">
+                    <div id="brocoli1_sprite"></div>
+                </div>
+                <div id="chips1_container">
+                    <div id="chips1_sprite"></div>
+                </div>
+                <div id="carrot1_container">
+                    <div id="carrot1_sprite"></div>
+                </div>
+                <div id="cheese1_container">
+                    <div id="cheese1_sprite"></div>
+                </div>
+                <div id="chicken1_container">
+                    <div id="chicken1_sprite"></div>
+                </div>
+                <div id="egg1_container">
+                    <div id="egg1_sprite"></div>
+                </div>
+                <div id="pincho1_container">
+                    <div id="pincho1_sprite"></div>
+                </div>
+            </div>

@@ -1,0 +1,213 @@
+main {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+}
+
+#Title-Screen {
+   position: absolute;
+   width: 80%;
+   aspect-ratio: 1/1;
+   top:6%;
+   left: 10%;
+}
+#UI-Elements {
+    position: absolute;
+    aspect-ratio: 1/1;
+    top: 90%;
+}
+#start {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    
+    top: 105%;
+    left: 10%;
+}
+#sound-on {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    
+    top: 105%;
+    left: 25%;
+}
+#sound-off {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    
+    top: 105%;
+    left: 40%;
+}
+#health-indicator {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 105%;
+    left: 55%;
+}
+#lifebar {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 105%;
+    left: 70%;
+}
+#game-elements {
+    position: absolute;
+   
+    aspect-ratio: 1/1;
+  
+  
+    top: 130%;
+    
+}
+
+#apple {
+      position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 2%;
+}
+
+#eggplant {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 17%;
+}
+
+#bread {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 32%;
+}
+#brocoli {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 47%;
+}
+#carrot {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 62%;
+}
+#chips {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 145%;
+    left: 77%;
+}
+#bad-objects {
+    position: absolute;
+   
+    aspect-ratio: 1/1;
+  
+  
+    top: 169%;
+}
+
+#beacon {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 2%;
+}
+#beef {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 17%;
+}
+#chicken {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 32%;
+}
+#egg {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 47%;
+}
+#hotdog {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 62%;
+}
+#pincho {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+  
+    top: 175%;
+    left: 77%;
+}
+
+#background-title {
+    position: absolute;
+   
+    aspect-ratio: 1/1;
+  
+  
+    top: 200%;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1/1;
+    
+  
+    top: 210%;
+    margin-bottom: 2%;
+    
+}

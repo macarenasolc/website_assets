@@ -1,0 +1,24 @@
+function loseALife(playerLives) {
+console.log("playerLives");
+lives = lives-1;
+
+
+
+function clickBadItem {
+loseALife();
+
+if(lives === 2) {
+document.querySelector("#playerLives").classList.value="";
+document.querySelector("#playerLives").classList.add("live2");
+}
+
+if(lives === 1) {
+document.querySelector("#playerLives").classList.value="";
+document.querySelector("#playerLives").classList.add("live1");
+}
+
+if(lives === 0) {
+gameOver();
+console.log("gameOver")
+}
+}
